@@ -1,0 +1,59 @@
+body{
+    background-color:#254d;
+}
+.auth-container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .loading-gif {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+  }
+  
+  .login-button, .register-button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .login-button {
+    background-color: #254d;
+    color: white;
+  }
+  
+  .register-button {
+    background-color: #254d;
+    color: white;
+  }
+  
+  .login-button:hover, .register-button:hover {
+   background-color: #333;
+   color: black;
+  }
+  
+  .fas {
+    margin-right: 10px;
+  }
+  
+  
+  
