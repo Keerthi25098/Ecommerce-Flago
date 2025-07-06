@@ -1,0 +1,79 @@
+body{
+    background-color: #254d;
+  }
+  .login-container {
+      width: 300px;
+      margin: 50px auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 60px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  
+    }
+    
+    .input-group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .input-group i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      background-color: #ccc;
+      color: #333;
+    }
+    
+    .input-group input {
+      width: 90%; /* Changed from 100% to 90% */
+      padding: 10px;
+      padding-left: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: block; /* Added display: block */
+      margin: 0 auto; /* Added margin: 0 auto */
+    }
+  
+  .end-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      width: 20px;
+      height: 20px;
+    }
+    
+    button[type="submit"] {
+      width: 90%; /* Changed from 100% to 90% */
+      padding: 10px;
+      background-color: #254d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block; /* Added display: block */
+      margin: 0 auto; /* Added margin: 0 auto */
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #333;
+      color: black;
+    }
+    
+     
+    .loading-gif {
+      position: absolute;
+      top: 17%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+    } 
+    
